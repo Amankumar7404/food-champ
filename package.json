@@ -1,0 +1,44 @@
+{
+  "name": "react-food-app",
+  "version": "1.0.0",
+  "description": "React by Aman",
+  "keywords": [
+    "react"
+  ],
+  "homepage": "https://github.com/Amankumar7404/React#readme",
+  "bugs": {
+    "url": "https://github.com/Amankumar7404/React/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amankumar7404/React.git"
+  },
+  "license": "ISC",
+  "author": "Aman",
+  "type": "module",
+  "scripts": {
+  "start": "parcel index.html",
+  "build": "parcel build index.html --public-url ./",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
+  "@parcel/resolver-default": {
+    "packageExports": true
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.14.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-redux": "^9.3.1",
+    "react-router-dom": "^7.18.5"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.16.4",
+    "postcss": "^8.5.32",
+    "tailwindcss": "^3.4.19"
+  },
+  "browserslist": [
+    "last 2 version"
+  ]
+}
