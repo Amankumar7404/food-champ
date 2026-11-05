@@ -1,4 +1,4 @@
-# Cooking Champ
+# Food Champ
 
 A food delivery web app built with React. You can browse restaurants, search and filter them, open a restaurant's menu, and add dishes to a cart.
 
